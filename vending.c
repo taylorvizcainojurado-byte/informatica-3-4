@@ -16,17 +16,17 @@ int main(void)
     printf("Vending Machine Stock\n");
     printf("----------------------\n");
     printf("Item Name: Quesadilla\n");
-    printf("Price: %.2f\n", price1);
+    printf("Price: $%.2f\n", price1);
     printf("Quantity Available: %d\n", stock1);
     printf("Selection Code: %c\n", sellcode);
     printf("\n");
     printf("Item Name: Calzon\n");
-    printf("Price: %.2f\n", price2);
+    printf("Price: $%.2f\n", price2);
     printf(" Quantity Available: %d\n", stock2);
     printf("Selection Code: %c\n", sellcode2);
     printf("\n");
     printf("Item Name: Chips\n");
-    printf("Price: %.2f\n", price3);
+    printf("Price: $%.2f\n", price3);
     printf("Quantity Available: %d\n", stock3);
     printf("Selection Code: %c\n", sellcode3);
 
