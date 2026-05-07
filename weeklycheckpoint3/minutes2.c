@@ -17,5 +17,13 @@ int main(void)
     end_t_h = mov_run_t/60+start_t_h;
     end_t_m = mov_run_t%60+start_t_m;
 
+    if (end_t_m >= 60) {//this is so it doesnt go over 60mins
+        end_t_h = end_t_h+1;
+        end_t_m = end_t_m-60;
+    }
+    if (end_t_h > 12){//so it wont be in army time
+        end_t_h = end_t_h-12;
+    }
+
     printf("End Time: %d:%02d \n", end_t_h, end_t_m);
 }
