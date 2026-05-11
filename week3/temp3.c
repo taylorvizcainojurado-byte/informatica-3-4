@@ -26,7 +26,7 @@ int main(void){
 void c_to_f(void){
     int c;
     printf("What is the temperature in Celcius?: ");
-    scanf("%d".&c);
+    scanf("%d", &c);
     int f = (c*1.8) + 32;
     printf("%d*C = %d*F\n",c,f);
 }
@@ -34,7 +34,7 @@ void c_to_f(void){
 void f_to_c(void){
     int f;
     printf("What is the temperature in Farenheit?: ");
-    scanf("%d",&f);
+    scanf("%d", &f);
     int c = (f-32)/1.8;
     printf("%d*F = %d*C\n",f,c);
 }
